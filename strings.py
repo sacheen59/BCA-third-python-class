@@ -25,37 +25,54 @@
 
 # modifying string 
 
-text = "we are learning python"
+# text = "we are learning python"
 
 #converting into uppercase
-upperText = text.upper()
-print(upperText)
+# upperText = text.upper()
+# print(upperText)
 
-second_text = "THIS IS TEXT IN UPPERCASE"
+# second_text = "THIS IS TEXT IN UPPERCASE"
 #converting into lowercase
-lowerText = second_text.lower()
-print(lowerText)
+# lowerText = second_text.lower()
+# print(lowerText)
 
-greet = "Hello everyone in python class. we are learning python"
+# greet = "Hello everyone in python class. we are learning python"
 # to count the word present in the string we use count() method
-count_python = greet.count("python")
-print(count_python)
+# count_python = greet.count("python")
+# print(count_python)
 
 # to find the length of the string
-print(len(greet))
+# print(len(greet))
 
 # to replace the given character of the string with another character we use
 # replace(character to be replace, character which replace it)
 
-replace_greet = greet.replace("python","Django")
-print(replace_greet)
+# replace_greet = greet.replace("python","Django")
+# print(replace_greet)
 
 # to remove the whitespace from the beginnig and end of the string
-next_text = "  Hello world   "
-print(next_text)
-print(next_text.strip())
+# next_text = "  Hello world   "
+# print(next_text)
+# print(next_text.strip())
 
 
-my_text = "we are learning python and django"
-splitted_text = my_text.split("and")
-print(splitted_text)
+# my_text = "we are learning python and django"
+# splitted_text = my_text.split("and")
+# print(splitted_text)
+
+#join() methods
+# text = "sachin"
+# next_text = " ".join(text)
+# print(next_text)
+
+# formatted string 
+
+name = "ujjwal"
+sirname = "Bhattarai"
+address = "Munalchowk"
+print("My name is ",name)
+
+# print("My name is {} {}. He is from {}".format(address,sirname, name))
+
+print(f"My name is {name} {sirname}. I am from {address}")
+
